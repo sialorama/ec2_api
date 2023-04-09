@@ -33,4 +33,4 @@ class Data:
         query_results = cls.cur.fetchall()
         cls.close_db()
         return query_results
-        
+    
